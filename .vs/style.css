@@ -1,16 +1,14 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'arialS', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
-
-
 
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(https://www.solvay.com/sites/g/files/srpend221/files/styles/header/https/media.solvay.com/medias/domain1446/media978/149593-0vuduqe055.jpg?itok=sF0xgnUs);
+    background-image: url(https://i.pinimg.com/736x/a3/c4/94/a3c494dd02285b65db8a538926967074--minimalist-web-design-web-design-examples.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -31,17 +29,17 @@ nav{
 }
 
 span{
-    color: #1f329e;
+    color: #f9004d;
 }
 
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 10px 45px;
+    padding: 10px 25px;
 }
 
 nav ul li a{
-    color: rgb(58, 58, 58);
+    color: white;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
@@ -52,7 +50,7 @@ nav ul li a:hover{
 }
 
 .btn{
-    background-color: #1f329e;
+    background-color: #f9004d;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -84,7 +82,7 @@ h3{
    margin-bottom: 50px; 
 }
 h4{
-    color: rgb(255, 255, 255);
+    color: #fcfc;
     letter-spacing: 2px;
     font-size: 20px;
 }
@@ -99,7 +97,7 @@ h4{
     display: inline-block;
     width: 450px;
     padding: 14px 130px 14px 15px;
-    border: 2px solid #f47c54;
+    border: 2px solid #f9004d;
     outline: none; 
     border-radius: 30px;
 }
@@ -111,7 +109,7 @@ h4{
     border: none;
     padding: 10px 30px 10px 20px;
     border-radius: 30px ;
-    background-color: #1f329e;
+    background-color: #f9004d;
     color: white;
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
     top: 6px;
@@ -123,10 +121,8 @@ h4{
 .about{
     width: 100%;
     padding: 100px 0px;
-    background-color: #222121;
+    background-color: #191919;
 }
-
-
 .about-img{
     height: auto;
     width: 430px;
@@ -161,7 +157,7 @@ h4{
 }
 
 .sobre-mim{
-    color: white;
+    color: #fcfc;
     letter-spacing: 1px;
     margin-left: 60px;
     line-height: 28px;
@@ -175,7 +171,7 @@ h4{
 }
 .about button:hover{
     background-color: transparent;
-    border: 2px solid #1f329e;
+    border: 2px solid #f9004d;
     cursor: pointer;
 }
 .service{
@@ -214,24 +210,24 @@ h4{
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: #60605e;
+    color: #f9004d;
 }
 
 h5{
-    color: #1f329e;
+    color: white;
     font-size: 23px;
     margin-bottom: 15px;
 }
 
 .pra p {
-    color: rgba(163, 162, 162, 0.979);
+    color: #fcfc;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
 }
 
 .card .button {
-    background-color: #1f329e;
+    background-color: #f9004d;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -243,76 +239,6 @@ h5{
 
 .card .button:hover{
     background-color: transparent;
-    border: 2px solid #1f329e;
+    border: 2px solid #f9004d;
     cursor: pointer;
-}
-
-footer{
-    margin-top: 200px;
-    margin-bottom: 0;
-    color: white;
-    
-} 
-.footer{
-    
-    text-decoration: none;
-    color:#aa2222;
-} 
-
-
-
-
-
-
-/* CONTACT AREA  */
-.page-contact{
-    background-color: #333333;
-
-}
-.btn-back{
-    background-color: #1f329e;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 10px 25px;
-    margin-top: 10px;
-    margin-left: 20px;
-    border-radius: 30px;
-    transition: transform .4s;
-}
-.btn-back:hover{
-    transform: scale(1.2);
-}
-
-
-.section-contact{
-    background-color: #333333;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    line-height: 50px;
-    font-family: arial;
-
-    
-}
-.container{
-    margin-top: 40px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.loc{
-    text-decoration: none;
-    
-}
-.text{
-    color: white;
-    margin-bottom: 10px;
-}
-.fab {
-    color: green;
 }
