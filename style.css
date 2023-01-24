@@ -122,6 +122,7 @@ h4{
 }
 .about{
     width: 100%;
+    max-width: 1980px;
     padding: 100px 0px;
     background-color: #222121;
 }
@@ -129,7 +130,8 @@ h4{
 
 .about-img{
     height: auto;
-    width: 430px;
+    width: 100%;
+    max-width: 980px;
     
 }
 
@@ -294,6 +296,8 @@ footer{
     flex-direction: column;
     line-height: 50px;
     font-family: arial;
+    width: 100%;
+    max-width: 980px;
 
     
 }
@@ -304,6 +308,8 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
+    max-width: 980px;
 }
 .loc{
     text-decoration: none;
