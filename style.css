@@ -28,6 +28,8 @@ nav{
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
+    width: 100%;
+    max-width: 100px;
 }
 
 span{
@@ -76,23 +78,35 @@ h1{
     color: white;
     font-size: 75px;
     margin: 20px 0px 20px;
+    width: 100%;
+    max-width: 1980px;
 }
 
 h3{
    color: white;
    font-size: 25px;
-   margin-bottom: 50px; 
+   margin-bottom: 50px;
+   width: 100%;
+   max-width: 1980px;
 }
 h4{
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
     font-size: 20px;
+    width: 100%;
+    max-width: 1980px;
 }
 
 .newslatter form{
-    width: 38px;
-    max-width: 100%;
+    
     position: relative;
+    width: 100%;
+    max-width: 1980px;
+}
+
+.newslatter{
+    width: 100%;
+    max-width: 1980px;
 }
 
 .newslatter form input:first-child{
@@ -131,7 +145,7 @@ h4{
 .about-img{
     height: auto;
     width: 100%;
-    max-width: 980px;
+    max-width: 1980px;
     
 }
 
@@ -183,6 +197,7 @@ h4{
 .service{
     background: #101010;
     width: 100%;
+    max-width: 1980px;
     padding: 100px 0px;
 }
 .title h2{
@@ -191,6 +206,7 @@ h4{
     width: 1130px;
     margin: 30px auto;
     text-align: center;
+    
 }
 .box{
     display: flex;
@@ -200,8 +216,9 @@ h4{
 }
 
 .card{
-    height: 365px;
-    width: 335px;
+    
+    width: 100%;
+    max-width: 1980px;
     padding: 20px 35px;
     background: #191919;
     border-radius: 20px;
@@ -241,12 +258,15 @@ h5{
     padding: 9px 22px;
     border-radius: 30px;
     transition: transform .4s;
+    
+    
 }
 
 .card .button:hover{
     background-color: transparent;
     border: 2px solid #1f329e;
     cursor: pointer;
+    
 }
 
 footer{
